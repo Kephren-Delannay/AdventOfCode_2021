@@ -8,3 +8,8 @@ def GetVerticalDataToListInt(_path):
         _data = f.read().split("\n")
         data = [eval(x) for x in _data]
     return data
+
+def SplitData(_path, symbol):
+    with open(file=_path) as f:
+        _data = f.read().split(symbol)
+    return _data
