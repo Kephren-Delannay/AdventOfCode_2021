@@ -13,3 +13,9 @@ def SplitData(_path, symbol):
     with open(file=_path) as f:
         _data = f.read().split(symbol)
     return _data
+
+def SplitDataToInt(_path, symbol):
+    with open(file=_path) as f:
+        _data = f.read().split(symbol)
+        data = [eval(x) for x in _data]
+    return data
