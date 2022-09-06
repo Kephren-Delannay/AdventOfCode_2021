@@ -2,7 +2,7 @@ import math
 
 import Utilities.DataProcess
 
-data = Utilities.DataProcess.SplitDataToInt("AOC_7_input.txt", ",")
+data = Utilities.DataProcess.split_data_to_int("AOC_7_input.txt", ",")
 
 
 def add_to(target) -> int:

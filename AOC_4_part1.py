@@ -1,4 +1,4 @@
-from Utilities.DataProcess import SplitData as spliter
+from Utilities.DataProcess import split_data as spliter
 
 data = spliter('AOC_4_input.txt', '*')
 hands = data[0]

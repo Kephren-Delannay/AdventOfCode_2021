@@ -1,4 +1,4 @@
-from Utilities.DataProcess import GetVerticalDataToListStr as d_p
+from Utilities.DataProcess import get_vertical_data_to_list_str as d_p
 data = d_p("AOC_3_input.txt")
 
 ox = data.copy()

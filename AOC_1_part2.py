@@ -1,4 +1,4 @@
-from Utilities.DataProcess import GetVerticalDataToListInt as d_p
+from Utilities.DataProcess import get_vertical_data_to_list_int as d_p
 
 data = d_p("AOC_1_input.txt")
 
